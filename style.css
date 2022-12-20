@@ -8,8 +8,9 @@
 
 .grid-item-1{
     background-color: rgb(86, 143, 216);
-    grid-row-start: 1;
-    grid-row-end: 3;
+    /*grid-row-start: 1;
+    grid-row-end: 3;*/
+    grid-row: span 2;
 }
 
 .grid-item-2{
@@ -34,8 +35,9 @@
 
 .grid-item-7{
     background-color: rgb(86, 143, 216);
-    grid-column-start: 2;
-    grid-column-end: 4;
+    /*grid-column-start: 2;
+    grid-column-end: 4;*/
+    grid-column: span 2;
 }
 
 p{
